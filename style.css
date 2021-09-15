@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #000;
+}
+.name-highlight{
+    color: orange;    
+    }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    p{
+        color: grey;
+    }
+.container{
+    
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.introduce-part, .about-part{
+    
+        display: flex;
+        align-items: center;
+        margin: 50px 0;
+        overflow: hidden;
+    
+}
+
+.half-width{
+    max-width: 40%;
+    margin: 3%;
+    padding-left: 5px;
+  
+    
+}
+
+.half-width img{
+    width: 90%;
+    border-radius: 50%;
+}
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(45deg, rgb(7, 3, 245), rgb(0, 255, 13));
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: bold;
+    
+    
+}
+.project-bg{
+    background-color: rgba(146, 160, 173, 0.089);
+    max-width:100%;
+    
+}
+.project-card-area{
+    display: flex;
+    padding-bottom: 150px;
+
+}
+.project-heading{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.project-image{
+    position: relative;   
+    text-align: center;
+}
+.project-image img{
+    max-width:80%;
+
+}
+.project-card{
+    box-shadow: 5px 5px 30px rgba(128, 128, 128, 0.356);
+    margin: 15px;
+    border-radius: 10px;
+    padding: 30px;
+    
+
+}
+.inquary-bg-img{
+    background-image: url(images/Group_33094_1.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: center;
+    position: relative;
+    border: 1px solid red;
+    margin: 2em;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+
+}
+.inquary-heading {
+   
+    position: absolute;
+    left: 50px;
+
+}
+.inquary-chat-btn{
+    position: absolute;
+    right: 50px;
+    
+
+}
+.work{
+    color: white;
+}
+
+.contact-section{
+    background-color: teal;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 30px;
+}
+.contact-area{
+    text-align: center;  
+}
+.contact{
+    color: white;
+    
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+input[type=text], select, textarea {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 10p;
+    margin-bottom: 10px;
+  }
+.copy-right-textf{
+    text-align: center;
+}
+.icons-area{
+    display: flex;
+    padding: 30px;
+    justify-content:center;
+    align-items: center;
+    
+    
+}
+.icon img{
+width: 40%;
+
+}
+.all-footer-area{
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+}
+@media (max-width: 700px) { 
+    .introduce-part ,.project-card-area {
+        display: flex;
+        flex-direction: column;
+        max-width: 90%;
+    
+    }
+    .about-part{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .half-width{
+        max-width: 80%;
+    }
+    .inquary-bg-img{
+        
+        
+    background-size: cover;
+        
+    }
+    .inquary-heading {
+   
+        position: absolute;
+        left: 20px;
+    
+    }
+    .inquary-chat-btn{
+        position: absolute;
+        right: 20px;
+        
+    
+    }
+    
+}
